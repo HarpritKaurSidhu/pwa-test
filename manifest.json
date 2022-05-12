@@ -1,0 +1,30 @@
+{
+    "name" : "My Progressive Web App",
+    "short_name" : "My PWA",
+    "start_url":"/",
+    "id": "/",
+    "description": "My App",
+    "display":"standalone",
+    "icons": [
+        {
+            "src": "icons/android-chrome-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "purpose":"maskable"
+        },
+        {
+            "src": "icons/mstile-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "background_color": "#dfdfdf",
+    "theme_color": "#008080",
+    "orientation": "any"
+}
