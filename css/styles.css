@@ -1,25 +1,48 @@
 body{
     padding: 0;
+    font-size: 20px;
     margin: 0;
-    font-size: 30px;
 }
 
 .container{
-
-    display: flex;
     min-height: 100vh;
+    display: flex;
     flex-direction: column;
 }
-header{
-    flex: 1;
-    display: flex;
+header {
     align-items: center;
     justify-content: center;
-    border-bottom: solid 6px #008080;
+    border-bottom: solid 2px #008080;
+    min-height: 200px;
+    display: flex;
 }
-main{
-    background-color: #dfdfdfdf;
-    flex: 5;
+main p {
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    display: flex;
+    font-size: 16px;
     padding: 20px;
+    text-align: center;
+    border-bottom: solid 2px #008080;
+    margin: 0;
+}
+button {
+    align-items: center;
+    background-color: bisque;
+    font-size: 20px;
+    padding: 10px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+}
 
+@media screen and (min-width: 768px) {
+    header {
+        font-size: 40px;
+        font-family: cursive;
+    }
+    main p { 
+        font-size: 28px; 
+    }
 }
